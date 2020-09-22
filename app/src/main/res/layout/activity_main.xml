@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/parent_layout"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="7dp"
+        tools:context=".MainActivity">
+
+
+
+        //recyclerview
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerv_view"
+            tools:listitem="@layout/layout_listitem"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+
+            ></androidx.recyclerview.widget.RecyclerView>
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:src="@drawable/shape_menu"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_alignParentBottom="true">-->
+
+<!--    </ImageView>-->
+
+
+</RelativeLayout>
+
+
+

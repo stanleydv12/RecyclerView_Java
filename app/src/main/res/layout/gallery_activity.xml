@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:id="@+id/images_gallery"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEssangduoawb wgb awbsrg awerg wa"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/framd"
+        android:textSize="25dp"
+        android:id="@+id/names_gallery"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/calibril"
+        android:textSize="20sp"
+        android:text="eiashfgaoihegiphawgie"
+        android:id="@+id/keterangan_gallery"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="30dp"
+        ></TextView>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
